@@ -2,42 +2,45 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. Widen the overall container to use the screen */
+/* 1. Push everything to the far left and remove width limits */
 .wrapper {
-  max-width: 8000px; /* Increased from 1000px */
-  margin: 0 auto;
-  padding: 0 40px;   /* Adds breathing room at the screen edges */
+  max-width: 95%;      /* Use almost the full width of the browser */
+  margin: 0;           /* REMOVES the centering (previously '0 auto') */
+  padding: 0 20px;     /* Small gap so it doesn't touch the screen edge */
 }
 
-/* 2. Give the sidebar (header) enough room to breathe */
+/* 2. Sidebar: Fixed width to keep your title from squishing */
 header {
-  width: 280px;      /* Fixed width so your title/desc don't squish */
+  width: 260px;        
   float: left;
-  position: relative; 
+  position: relative;
+  padding-right: 40px; /* Space between sidebar and vertical line */
 }
 
-/* 3. Give the main content the rest of the space */
+/* 3. Content: Takes up the rest of the 95% width */
 section {
-  width: calc(100% - 330px); /* Leaves a 50px gap between sidebar and content */
-  float: right;
+  width: calc(100% - 320px); /* Adjust based on header width + gap */
+  float: left;               /* Changed from float: right to stay close to sidebar */
   padding-bottom: 100px;
 }
 
-/* 4. Fix the Footer Overlap */
+/* 4. Fix Footer Overlap & position it under the sidebar */
 footer {
-  position: static !important; /* Stops it from floating over your content */
-  margin-top: 40px;
-  width: 100%;
+  position: relative !important; 
+  clear: both;
+  width: 260px;        /* Matches sidebar width */
+  margin-top: 20px;
+  float: left;
 }
 
-/* 5. Responsive fix: Stack them on mobile/small screens */
+/* 5. Responsive: Keep it usable on phones */
 @media print, screen and (max-width: 960px) {
-  header, section {
+  .wrapper {
+    width: auto;
+    margin: 0 auto;
+  }
+  header, section, footer {
     float: none;
     width: 100%;
-  }
-  .wrapper {
-    width: 90%;
-    padding: 0;
   }
 }
