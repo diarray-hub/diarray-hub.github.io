@@ -111,7 +111,7 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
       <b>Research Lead on Speech Recognition</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
       I lead the lab's efforts in building robust speech technologies for Malian languages, managing the full pipeline from data collection to edge deployment.
       <ul>
-        <li><b>Dataset Releases (2025):</b> Spearheaded the release of two landmark ASR datasets: 
+        <li><b>Dataset & Models (2025):</b> Spearheaded the release of two landmark ASR datasets: 
           <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612 hours, currently the largest open Bambara corpus) and 
           <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160 hours of radio speech). This dataset are designed to move beyond "clean" speech by capturing real-world disfluencies, background noise, and the heavy code-switching typical of present-day Bambara.
         </li>

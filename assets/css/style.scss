@@ -1,0 +1,20 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* This widens the main container */
+.wrapper {
+  max-width: 1000px; /* Original is ~640px */
+  margin: 0 auto;
+}
+
+/* This makes the right-side content area use more of that new width */
+section {
+  width: -webkit-calc(100% - 250px);
+  width:         calc(100% - 250px);
+}
+
+/* Adjusts the sidebar width so it doesn't look tiny */
+header {
+  width: 210px;
+}
