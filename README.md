@@ -1,5 +1,4 @@
 <style>
-  /* Profile Picture */
   .profile-container {
     text-align: center;
     margin-bottom: 2rem;
@@ -10,22 +9,21 @@
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #eee;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-  /* Timeline Container */
   .timeline {
     position: relative;
-    max-width: 800px;
+    width: 100%;             
     margin: 2rem 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
 
-  /* The vertical line */
   .timeline::before {
     content: '';
     position: absolute;
-    left: 105px; /* Adjust based on year width */
-    top: 0;
+    left: 105px;             
+    top: 5px;
     bottom: 0;
     width: 2px;
     background: #e1e4e8;
@@ -38,17 +36,15 @@
     align-items: flex-start;
   }
 
-  /* Year Label */
   .timeline-year {
     width: 90px;
     text-align: right;
     font-size: 0.9rem;
     color: #6a737d;
-    padding-top: 4px;
+    padding-top: 2px;
     flex-shrink: 0;
   }
 
-  /* The Dot */
   .timeline-dot {
     width: 12px;
     height: 12px;
@@ -56,33 +52,46 @@
     border: 2px solid #fff;
     border-radius: 50%;
     position: absolute;
-    left: 100px; /* Aligned with vertical line */
-    top: 8px;
+    left: 100px;           
+    top: 6px;
     z-index: 1;
   }
 
-  /* Content Area */
   .timeline-content {
-    margin-left: 40px;
+    margin-left: 40px;      
     display: flex;
     align-items: flex-start;
+    width: 100%;             
   }
 
   .timeline-logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 15px;
+    width: 60px;            
+    height: 60px;
+    margin-right: 20px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .timeline-logo img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 4px;
   }
 
   .timeline-text {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    flex-grow: 1;
+  }
+  
+  .timeline-text ul {
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+  .timeline-text li {
+    margin-bottom: 6px;
   }
 </style>
 
