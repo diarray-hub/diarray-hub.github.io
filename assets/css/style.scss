@@ -4,7 +4,7 @@
 
 /* 1. Push everything to the far left and remove width limits */
 .wrapper {
-  max-width: 95%;      /* Use almost the full width of the browser */
+  max-width: 80%;      /* Use almost the full width of the browser */
   margin: 0;           /* REMOVES the centering (previously '0 auto') */
   padding: 0 20px;     /* Small gap so it doesn't touch the screen edge */
 }
