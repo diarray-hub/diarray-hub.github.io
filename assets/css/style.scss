@@ -2,53 +2,67 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. The Container: Use 95% of the screen */
+/* RESET: Nuke the theme's default max-widths */
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrollbars */
+}
+
+/* 1. THE LAYOUT ENGINE (Flexbox) */
 .wrapper {
-  max-width: 80%;      
-  margin: 0 2.5%;      /* Center the 95% block nicely */
+  display: flex;             
+  flex-direction: row;       
+  justify-content: flex-start; 
+  max-width: 80%;            
+  margin: 0 20px;            
   padding: 0;
+  box-sizing: border-box;    
 }
 
-/* 2. The Sidebar: Widen it to unsquish the title */
+/* 2. THE SIDEBAR (Header) */
 header {
-  width: 350px;        /* Increased from 260px -> 350px */
-  float: left;
-  position: relative;
-  padding-right: 50px; /* More breathing room between sidebar and text */
-}
-
-/* 3. The Content: Fill the rest & REMOVE the width limit */
-section {
-  width: calc(100% - 400px); /* Math: 100% minus (header width + padding) */
-  float: left;
-  padding-bottom: 100px;
+  width: 350px;             
+  flex-shrink: 0;            
+  padding-right: 60px;       
   
-  /* THIS IS THE KEY FIX FOR THE RIGHT BLANK SPACE */
-  max-width: none !important; 
-}
-
-/* 4. Footer: Clean up the positioning */
-footer {
-  width: 350px;        /* Match the header width */
-  float: left;
+  float: none !important;    
   position: relative !important;
-  clear: both;
-  margin-top: 20px;
 }
 
-/* 5. Mobile: Stack everything vertically on small screens */
-@media print, screen and (max-width: 960px) {
+/* 3. THE CONTENT (Section) */
+section {
+  flex-grow: 1;              
+  width: auto;               
+  max-width: none !important; 
+  min-width: 0;              
+  
+  float: none !important;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+
+/* On phones, we switch back to a vertical column */
+@media screen and (max-width: 900px) {
   .wrapper {
+    flex-direction: column;  /* Stacks items vertically */
     margin: 0 auto;
     width: 90%;
   }
-  header, section, footer {
-    float: none;
+  
+  header, section {
     width: 100%;
-    max-width: 100%;
-  }
-  header {
     padding-right: 0;
+  }
+  
+  header {
+    border-bottom: 1px solid #eee;
     margin-bottom: 40px;
+    padding-bottom: 20px;
   }
 }
