@@ -118,18 +118,11 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
     </div>
     <div class="timeline-text">
       <b>Research Lead on Speech Recognition</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
-      I lead the lab's efforts in building robust speech technologies for Malian languages, managing the full pipeline from data collection to edge deployment.
       <ul>
-        <li><b>Dataset & Models (2025):</b> Spearheaded the release of two landmark ASR datasets: 
-          <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612 hours, currently the largest open Bambara corpus) and 
-          <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160 hours of radio speech). This dataset are designed to move beyond "clean" speech by capturing real-world disfluencies, background noise, and the heavy code-switching typical of present-day Bambara.
-        </li>
-        <li><b>An be Kalan:</b> My team developed and deployed ASR models at the edge for the 
-          <a href="https://github.com/RobotsMali-AI/an-be-kalan">An be Kalan</a> literacy apps 
-          (<a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Play Store</a>). A major part of this work was ensuring functionality in low-connectivity environments through on-device inference.
-        </li>
-        <li><b>Open Source:</b> Authored <a href="https://github.com/diarray-hub/bambara-normalizer">bambara-normalizer</a>, the first Python package dedicated to normalizing Bambara text for NLP. I still update it whenever I hit a new edge case while preparing a dataset for training.</li>
-        <li><b>Future Focus:</b> Shifting focus toward real-world applications of our models, particularly in <b>Fintech</b> to drive financial inclusion in Mali.</li>
+        <li><b>Datasets & Models:</b> Released <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612h) and <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160h) open Bambara ASR datasets and associated <a href="https://huggingface.co/RobotsMali/models">models</a></li>
+        <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + edge deployment of our ASR models to enable offline usage in Mali.</li>
+        <li><b>Preprocessing:</b> Authored <a href="https://github.com/diarray-hub/bambara-normalizer">bambara-normalizer</a>, a dedicated Python package for Bambara text NLP preprocessing.</li>
+        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML applications to drive financial inclusion in the absence of an established credit system.</li>
       </ul>
     </div>
   </div>
@@ -144,13 +137,11 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
     </div>
     <div class="timeline-text">
       <b>Personal Projects & ML Journey</b>
-      <br>I’m a Pythonista at heart and a fan of community service. Before the lab was created, I was volunteering on different RobotsMali activities, notably I was a Python trainer at RobotsMali STEM camps in 2023.
       <ul>
-        <li><b>Deep Learning from Scratch:</b> Back in the "pre-ChatGPT era," I became obsessed with implementing neural nets and DL technique from scratch after reading <a href="http://neuralnetworksanddeeplearning.com">Nielsen’s book</a>. It was all struggle and learning, but it feels so good when the math is finally mathing. In early 2023, I apply these codes to <a href="https://github.com/diarray-hub/covid_classification">classifying COVID patients</a> and publish them on github (I bet you had forgotten about COVID-19, didn't you?) </li>
-        <li><b>Undergrad Research:</b> For my undergrad project, I dove into <a href="https://github.com/diarray-hub/predicting-loans-defaults">loan default prediction</a>, exploring multi-process computing and <a href="https://ieeexplore.ieee.org/document/7344858">Deep Feature Synthesis</a> to handle massive Home Credit databases and compare ML classification algorithms.</li>
-        <li><b>Robotics & ROS:</b> Participated in the 2023 Panafrican Robotics Competition (PARC) with Team RobotsMali. We won the bronze medal, and I gained valuable skills in <a href="https://www.ros.org/">ROS</a> and computer vision.</li>
-        <li><b>Teaching & Mentorship</b> In 2022, I wrote a series of notebooks in French as an intro to Python for... a dude (bro asked and I simply said ok). In 2024, I released those resources as <a href="https://github.com/diarray-hub/Intro2Python">Intro2Python</a>—four notebooks with a uniquely light tone covering just the basics</li>
-        <li><b>Space:</b> Currently reconnecting with a childhood passion for space, exploring how ML can accelerate discovery in astronomical data.</li>
+        <li><b>Learning:</b> At some point I was obessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
+        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using multi-process computing and <a href="https://ieeexplore.ieee.org/document/7344858">Deep Feature Synthesis</a> to create fetures from a large dataset and compare ML algorithms for credit scoring.</li>
+        <li><b>Robotics:</b> <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
+        <li><b>Space:</b> Currently investigating Machine Learning applications for accelerating astronomical data analysis and space discovery.</li>
       </ul>
     </div>
   </div>
