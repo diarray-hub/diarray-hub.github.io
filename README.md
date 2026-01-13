@@ -120,7 +120,7 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
       <b>Researcher</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
       <ul>
         <li><b>Datasets & Models:</b> Released <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612h) and <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160h) open Bambara ASR datasets and associated <a href="https://huggingface.co/RobotsMali/models">models</a></li>
-        <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + edge deployment of our ASR models to enable offline usage in Mali.</li>
+        <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps development (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + edge deployment of our ASR models to enable offline usage in Mali.</li>
         <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML techniques to drive financial inclusion in the absence of an established credit system.</li>
       </ul>
     </div>
@@ -137,9 +137,9 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
     <div class="timeline-text">
       <b>Personal Projects</b>
       <ul>
-        <li><b>Space:</b> I'm urrently exploring Machine Learning in Observational Astronomical and space discovery.</li>
+        <li><b>Space:</b> I'm currently exploring Machine Learning in Observational Astronomical and space discovery.</li>
         <li><b>Robotics:</b> <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
-        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using multi-process computing and <a href="https://ieeexplore.ieee.org/document/7344858">Deep Feature Synthesis</a> to create fetures from a large dataset and compare ML algorithms for credit scoring.</li>
+        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using <a href="https://ieeexplore.ieee.org/document/7344858">DFS</a> to create features from a <a href="https://www.kaggle.com/datasets/diarray/deep-feature-synthesis-home-credit-stability">large relational database</a> and compare ML algorithms for credit scoring.</li>
         <li><b>Learning:</b> At some point I was obsessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
       </ul>
     </div>
@@ -149,8 +149,6 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
 </div>
 
 ---
-
-## Publications
 
 ## Publications
 
