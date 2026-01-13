@@ -117,12 +117,11 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
       <img src="./assets/Robotsmali.png" alt="RobotsMali">
     </div>
     <div class="timeline-text">
-      <b>Research Lead on Speech Recognition</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
+      <b>Researcher</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
       <ul>
         <li><b>Datasets & Models:</b> Released <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612h) and <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160h) open Bambara ASR datasets and associated <a href="https://huggingface.co/RobotsMali/models">models</a></li>
         <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + edge deployment of our ASR models to enable offline usage in Mali.</li>
-        <li><b>Preprocessing:</b> Authored <a href="https://github.com/diarray-hub/bambara-normalizer">bambara-normalizer</a>, a dedicated Python package for Bambara text NLP preprocessing.</li>
-        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML applications to drive financial inclusion in the absence of an established credit system.</li>
+        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML techniques to drive financial inclusion in the absence of an established credit system.</li>
       </ul>
     </div>
   </div>
@@ -136,12 +135,12 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
       <img src="./assets/laptop.png" alt="Personal Projects">
     </div>
     <div class="timeline-text">
-      <b>Personal Projects & ML Journey</b>
+      <b>Personal Projects</b>
       <ul>
-        <li><b>Learning:</b> At some point I was obsessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
-        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using multi-process computing and <a href="https://ieeexplore.ieee.org/document/7344858">Deep Feature Synthesis</a> to create fetures from a large dataset and compare ML algorithms for credit scoring.</li>
+        <li><b>Space:</b> I'm urrently exploring Machine Learning in Observational Astronomical and space discovery.</li>
         <li><b>Robotics:</b> <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
-        <li><b>Space:</b> Currently investigating Machine Learning applications for accelerating astronomical data analysis and space discovery.</li>
+        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using multi-process computing and <a href="https://ieeexplore.ieee.org/document/7344858">Deep Feature Synthesis</a> to create fetures from a large dataset and compare ML algorithms for credit scoring.</li>
+        <li><b>Learning:</b> At some point I was obsessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
       </ul>
     </div>
   </div>
@@ -153,3 +152,18 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
 
 ## Publications
 
+## Publications
+
+For a full list of my publications, check my [Semantic Scholar](https://www.semanticscholar.org/author/Yacouba-Diarra/2267627632) or [Google Scholar](https://scholar.google.com/citations?hl=en&user=OsbQk2MAAAAJ) profiles.
+
+* **Listen, Attend, Understand: a Regularization Technique for Stable E2E Speech Translation Training on High Variance labels** (2026).
+  *Yacouba Diarra and Michael Leventhal.* [arXiv](https://arxiv.org/abs/2601.01121)
+
+* **Kunnafonidilaw ka Cadeau (Kunkado): an ASR dataset of present-day Bambara** (2025).
+  *Yacouba Diarra, P. A. Kamaté, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2512.19400) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/kunkado)
+
+* **Dealing with the Hard Facts of Low-Resource African NLP** (2025).
+  *Yacouba Diarra, N. S. Coulibaly, P. A. Kamaté, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2511.18557) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/afvoices)
+
+* **Cost Analysis of Human-corrected Transcription for Predominately Oral Languages** (2025).
+  *Yacouba Diarra, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2510.12781)
