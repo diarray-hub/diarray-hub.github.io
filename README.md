@@ -161,7 +161,7 @@ For a full list of my publications, check my [Semantic Scholar](https://www.sema
   *Yacouba Diarra, P. A. Kamaté, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2512.19400) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/kunkado)
 
 * **Dealing with the Hard Facts of Low-Resource African NLP** (2025).
-  *Yacouba Diarra, N. S. Coulibaly, P. A. Kamaté, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2511.18557) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/afvoices)
+  *Yacouba Diarra et al.* [arXiv](https://arxiv.org/abs/2511.18557) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/afvoices)
 
 * **Cost Analysis of Human-corrected Transcription for Predominately Oral Languages** (2025).
   *Yacouba Diarra, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2510.12781)
