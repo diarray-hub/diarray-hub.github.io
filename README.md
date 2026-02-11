@@ -158,13 +158,13 @@ For a full list of my publications, check my [Semantic Scholar](https://www.sema
   *Yacouba Diarra and Michael Leventhal.* [arXiv](https://arxiv.org/abs/2601.01121)
 
 * **Kunnafonidilaw ka Cadeau (Kunkado): an ASR dataset of present-day Bambara** (2025).
-  *Yacouba Diarra, P. A. Kamaté, N. S. Coulibaly, and M. Leventhal.* AfricaNLP @ EACL 2026 | [arXiv](https://arxiv.org/abs/2512.19400) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/kunkado)
+  *Yacouba Diarra, P. A. Kamaté, N. S. Coulibaly, and M. Leventhal.* [AfricaNLP @ EACL 2026]() | [arXiv](https://arxiv.org/abs/2512.19400) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/kunkado)
 
 * **Dealing with the Hard Facts of Low-Resource African NLP** (2025).
-  *Yacouba Diarra et al.* AfricaNLP @ EACL 2026 | [arXiv](https://arxiv.org/abs/2511.18557) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/afvoices)
+  *Yacouba Diarra et al.* [AfricaNLP @ EACL 2026]() | [arXiv](https://arxiv.org/abs/2511.18557) | [HuggingFace](https://huggingface.co/datasets/RobotsMali/afvoices)
 
 * **Where Are We At with Automatic Speech Recognition for the Bambara Language?** (2026).
-  *Yacouba Diarra et al* AfricaNLP @ EACL 2026 | [arXiv](https://arxiv.org/abs/2602.09785)
+  *Yacouba Diarra et al.* [AfricaNLP @ EACL 2026]() | [arXiv](https://arxiv.org/abs/2602.09785)
 
 * **Cost Analysis of Human-corrected Transcription for Predominately Oral Languages** (2025).
   *Yacouba Diarra, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2510.12781)
