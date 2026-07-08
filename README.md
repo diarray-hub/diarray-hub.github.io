@@ -99,29 +99,29 @@
   <img src="./assets/blue_bird.png" alt="blue_bird" class="profile-pic">
 </div>
 
-Hi, I'm Yacouba Diarra (**diarray** on the internet) and I care about stuffs like having a [blog](./blog.md) to post about, well... [stuffs](https://diarray-hub.github.io/misc/2026/01/13/stuff.html). By the way this website was created with [markdown](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), what a great framework to create a [motherfucking website](https://motherfuckingwebsite.com/)!
+Hi, I'm Yacouba Diarra (**diarray** on the internet) and I care about [stuffs](https://diarray-hub.github.io/misc/2026/01/13/stuff.html). And, by the way, this website was created with [markdown](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), what a great "framework" to create a [motherfucking website](https://motherfuckingwebsite.com/)!
 
 Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https://idrc-crdi.ca/en/initiative/artificial-intelligence-development) Lab. If you want to know more about me check my ChatGPT biography @ [whoami](./whoami.md), I'll try to update it maybe once every leap year. Here are some of the stuffs I have worked on and places you can find them (I'll update this more often):
 
 ---
 
-## Projects
+# Projects
 
 <div class="timeline">
 
   <div class="timeline-item">
-  <div class="timeline-year">2024 - 2026</div>
+  <div class="timeline-year">2024 - Present</div>
   <div class="timeline-dot"></div>
   <div class="timeline-content">
     <div class="timeline-logo">
       <img src="./assets/Robotsmali.png" alt="RobotsMali">
     </div>
     <div class="timeline-text">
-      <b>Researcher</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
+      <b>Research Engineer</b> @ <a href="https://huggingface.co/RobotsMali">RobotsMali AI4D Lab.</a>
       <ul>
         <li><b>Datasets & Models:</b> Released <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612h) and <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160h) open Bambara ASR datasets and associated <a href="https://huggingface.co/RobotsMali/models">models</a></li>
-        <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps development (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + edge deployment of our ASR models to enable offline usage in Mali.</li>
-        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML techniques to drive financial inclusion in the absence of an established credit system.</li>
+        <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps development (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + Quantization & Edge deployment of our ASR models to enable offline usage in Mali.</li>
+        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML techniques and our speech foundations to drive financial inclusion in Mali.</li>
       </ul>
     </div>
   </div>
@@ -132,12 +132,12 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
   <div class="timeline-dot"></div>
   <div class="timeline-content">
     <div class="timeline-logo">
-      <img src="./assets/laptop.png" alt="Personal Projects">
+      <img src="./assets/inf.diarray.png" alt="Personal Projects">
     </div>
     <div class="timeline-text">
       <b>Personal Projects</b>
       <ul>
-        <li><b>Space:</b> I'm currently exploring Machine Learning in Observational Astronomical and space discovery.</li>
+        <li><b>Space:</b> I am currently exploring Machine Learning for Observational Astronomical and space science. Lately, I've been studying <a href="https://huggingface.co/nasa-ibm-ai4science"> NASA and IBM Heliophysics foundation Model</a> </li>
         <li><b>Robotics:</b> <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
         <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using <a href="https://ieeexplore.ieee.org/document/7344858">DFS</a> to create features from a <a href="https://www.kaggle.com/datasets/diarray/deep-feature-synthesis-home-credit-stability">large relational database</a> and compare ML algorithms for credit scoring.</li>
         <li><b>Learning:</b> At some point I was obsessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
@@ -150,7 +150,7 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
 
 ---
 
-## Publications
+# Publications
 
 For a full list of my publications, check my [Semantic Scholar](https://www.semanticscholar.org/author/Yacouba-Diarra/2267627632) or [Google Scholar](https://scholar.google.com/citations?hl=en&user=OsbQk2MAAAAJ) profiles.
 
@@ -168,3 +168,7 @@ For a full list of my publications, check my [Semantic Scholar](https://www.sema
 
 * **Cost Analysis of Human-corrected Transcription for Predominately Oral Languages** (2025).
   *Yacouba Diarra, N. S. Coulibaly, and M. Leventhal.* [arXiv](https://arxiv.org/abs/2510.12781)
+
+## Blog
+
+Because I may occasionally write stuffs that do not quite fit in an academic paper, I started a [blog](./blog.md). This blog really doesn't have a specific topic, the books I read are way too random for that, and I think it will often be about a book. So let's say it's a ***reading blog***.
