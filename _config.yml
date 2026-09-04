@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
 title: $ cd /home/diarray
 description: And What's beyond the Infinity?
+
+social:
+  google_scholar: https://scholar.google.com/citations?hl=en&user=OsbQk2MAAAAJ
+  twitter: https://twitter.com/d1array
+  linkedin: https://linkedin.com/in/d1array

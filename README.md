@@ -96,7 +96,9 @@
 </style>
 
 <div class="profile-container">
-  <img src="./assets/blue_bird.png" alt="blue_bird" class="profile-pic">
+  <a href="https://youtu.be/2upuBiEiXDk?si=_aPfxMFg3WBUkwQt" target="_blank" rel="noopener noreferrer" aria-label="Watch the Naruto Blue Bird opening on YouTube">
+    <img src="./assets/blue_bird.png" alt="Blue bird" class="profile-pic">
+  </a>
 </div>
 
 Hi, I'm Yacouba Diarra (**diarray** on the internet) and I care about [stuffs](https://diarray-hub.github.io/misc/2026/01/13/stuff.html). And, by the way, this website was created with [markdown](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), what a great "framework" to create a [motherfucking website](https://motherfuckingwebsite.com/)!
@@ -121,7 +123,7 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
       <ul>
         <li><b>Datasets & Models:</b> Released <a href="https://huggingface.co/datasets/RobotsMali/afvoices">African Next Voices</a> (612h) and <a href="https://huggingface.co/datasets/RobotsMali/kunkado">Kunkado</a> (160h) open Bambara ASR datasets and associated <a href="https://huggingface.co/RobotsMali/models">models</a></li>
         <li><b>An be Kalan:</b> Initiated the RobotsMali literacy apps development (<a href="https://github.com/RobotsMali-AI/an-be-kalan">GitHub</a> / <a href="https://play.google.com/store/apps/details?id=org.robotsmali.literacy_app&hl=en">Store</a>) + Quantization & Edge deployment of our ASR models to enable offline usage in Mali.</li>
-        <li><b>Fintech:</b> Lately, my focus shifted to exploring and adapting foundational ML techniques and our speech foundations to drive financial inclusion in Mali.</li>
+        <li><b>Fintech:</b> Prototyped <a href="https://github.com/RobotsMali-AI/mobileBAMking">BAM King</a>, a voice-first mobile banking proof of concept in Bambara that uses our speech foundation models on-device for intent recognition, number transcription, and spoken feedback.</li>
       </ul>
     </div>
   </div>
