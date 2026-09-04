@@ -2,9 +2,7 @@
 layout: post
 title: "So what? Notes from Deep Learning Indaba 2026"
 author: Yacouba Diarra
-categories:
-  - misc
-  - events
+categories: events
 tags: africa ai community deep-learning-indaba research reflections
 ---
 
