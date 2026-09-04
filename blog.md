@@ -5,7 +5,7 @@ title: Blog
 
 # Blog
 
-**My newly started blog**... Though I'm not really a blogger so it's just occasionally updated
+**My newly started blog**... Though I'm not really a blogger, will I even write any thing in there?
 
 <ul>
   {% for post in site.posts %}
