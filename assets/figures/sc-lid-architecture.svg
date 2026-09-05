@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
+  <title id="title">Self-conditioned language identification architecture for multilingual ASR</title>
+  <desc id="desc">A FastConformer encoder produces acoustic frames. Masked mean pooling and a language identification head predict soft probabilities for Lingala, Luganda, and Shona. A projection broadcasts the language signal back into every frame before RNN-T and CTC decoding.</desc>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 6" markerWidth="10" markerHeight="6" refX="9" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a5568"/>
+    </marker>
+    <style>
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 600; fill: #222; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #4a5568; }
+      .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #64748b; }
+      .box { fill: #fff; stroke: #94a3b8; stroke-width: 2; rx: 12; }
+      .core { fill: #eef6fc; stroke: #267cb9; }
+      .lid { fill: #f1f8f4; stroke: #2f855a; }
+      .add { fill: #fff8e8; stroke: #d69e2e; }
+      .loss { fill: #fff1f2; stroke: #e11d48; }
+      .line { fill: none; stroke: #4a5568; stroke-width: 2.4; marker-end: url(#arrow2); }
+      .dashed { stroke-dasharray: 8 7; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="680" fill="#fff"/>
+  <text x="40" y="45" class="label" font-size="25">SC-LID: let the recognizer tell itself which language it hears</text>
+  <g fill="none">
+
+  <rect x="45" y="105" width="140" height="72" rx="12" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="115" y="136" text-anchor="middle" class="label">Speech</text>
+  <text x="115" y="161" text-anchor="middle" class="small">x</text>
+
+  <rect x="245" y="90" width="205" height="102" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="348" y="128" text-anchor="middle" class="label">FastConformer</text>
+  <text x="348" y="156" text-anchor="middle" class="small">17-layer encoder</text>
+  <text x="348" y="178" text-anchor="middle" class="tiny">H ∈ R⁵¹²ˣᵀ</text>
+
+  <circle cx="690" cy="141" r="34" fill="#fff8e8" stroke="#d69e2e" stroke-width="2"/>
+  <text x="690" y="150" text-anchor="middle" class="label" font-size="30">+</text>
+
+  <rect x="805" y="90" width="160" height="102" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="885" y="128" text-anchor="middle" class="label">RNN-T + CTC</text>
+  <text x="885" y="156" text-anchor="middle" class="small">decoders</text>
+  <text x="885" y="178" text-anchor="middle" class="tiny">conditioned features</text>
+
+  <path d="M185 141 H245" class="line"/>
+  <path d="M450 141 H656" class="line"/>
+  <path d="M724 141 H805" class="line"/>
+  <path d="M965 141 H1045" class="line"/>
+  <text x="1005" y="122" text-anchor="middle" class="small">text</text>
+
+  <path d="M520 141 V265" class="line"/>
+  <rect x="425" y="270" width="190" height="80" rx="12" fill="#f1f8f4" stroke="#2f855a" stroke-width="2"/>
+  <text x="520" y="302" text-anchor="middle" class="label">Masked mean</text>
+  <text x="520" y="330" text-anchor="middle" class="small">pool over time</text>
+
+  <rect x="425" y="400" width="190" height="80" rx="12" fill="#f1f8f4" stroke="#2f855a" stroke-width="2"/>
+  <text x="520" y="432" text-anchor="middle" class="label">LID head</text>
+  <text x="520" y="460" text-anchor="middle" class="small">Linear: 512 → 3</text>
+  <path d="M520 350 V400" class="line"/>
+
+  <rect x="680" y="400" width="180" height="80" rx="12" fill="#f1f8f4" stroke="#2f855a" stroke-width="2"/>
+  <text x="770" y="432" text-anchor="middle" class="label">Softmax</text>
+  <text x="770" y="460" text-anchor="middle" class="small">p(lin, lug, sna)</text>
+  <path d="M615 440 H680" class="line"/>
+
+  <rect x="680" y="270" width="180" height="80" rx="12" fill="#f1f8f4" stroke="#2f855a" stroke-width="2"/>
+  <text x="770" y="302" text-anchor="middle" class="label">Projection</text>
+  <text x="770" y="330" text-anchor="middle" class="small">Linear: 3 → 512</text>
+  <path d="M770 400 V350" class="line"/>
+  <path d="M770 270 C770 220 710 220 698 174" class="line"/>
+  <text x="805" y="230" class="tiny">broadcast to every frame</text>
+
+  <rect x="90" y="545" width="920" height="86" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+  <text x="550" y="579" text-anchor="middle" class="label">Training objective used in the best recorded run</text>
+  <text x="550" y="610" text-anchor="middle" class="small">Ltotal = LRNNT + 0.3 LCTC + 0.2 LLID</text>
+  <path d="M520 480 V545" class="line dashed"/>
+  <path d="M885 192 C885 360 910 470 835 545" class="line dashed"/>
+  <text x="550" y="662" text-anchor="middle" class="small">At inference, the soft LID signal remains; no caller-supplied language label is required.</text>
+  </g>
+</svg>

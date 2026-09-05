@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">Listen, Attend, Understand training and inference architecture</title>
+  <desc id="desc">Speech passes through a FastConformer encoder and TDT or CTC decoder. During training only, a shallow semantic head aligns encoder features with embeddings of the reference translation from a frozen sentence transformer.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 6" markerWidth="10" markerHeight="6" refX="9" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a5568"/>
+    </marker>
+    <style>
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 600; fill: #222; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #4a5568; }
+      .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #64748b; }
+      .box { fill: #fff; stroke: #94a3b8; stroke-width: 2; rx: 12; }
+      .core { fill: #eef6fc; stroke: #267cb9; }
+      .aux { fill: #fff8e8; stroke: #d69e2e; }
+      .frozen { fill: #f4f4f5; stroke: #71717a; stroke-dasharray: 7 6; }
+      .loss { fill: #fff1f2; stroke: #e11d48; }
+      .line { fill: none; stroke: #4a5568; stroke-width: 2.4; marker-end: url(#arrow); }
+      .dashed { stroke-dasharray: 8 7; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="650" fill="#fff"/>
+  <text x="40" y="45" class="label" font-size="25">LAU: add a semantic pull during training</text>
+  <g fill="none">
+
+  <rect x="30" y="75" width="1040" height="455" rx="18" fill="#fbfdff" stroke="#dbe4ec" stroke-width="2"/>
+  <text x="55" y="110" class="small">TRAINING</text>
+
+  <rect x="55" y="190" width="145" height="72" rx="12" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="127" y="220" text-anchor="middle" class="label">Speech</text>
+  <text x="127" y="245" text-anchor="middle" class="small">x</text>
+
+  <rect x="265" y="175" width="220" height="102" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="375" y="215" text-anchor="middle" class="label">Acoustic encoder</text>
+  <text x="375" y="244" text-anchor="middle" class="small">Parakeet / FastConformer</text>
+
+  <rect x="570" y="105" width="190" height="88" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="665" y="140" text-anchor="middle" class="label">TDT + CTC</text>
+  <text x="665" y="168" text-anchor="middle" class="small">sequence decoders</text>
+
+  <rect x="850" y="105" width="175" height="88" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="938" y="140" text-anchor="middle" class="label">Translation</text>
+  <text x="938" y="168" text-anchor="middle" class="small">ŷ</text>
+
+  <path d="M200 226 H265" class="line"/>
+  <path d="M485 205 C520 190 535 150 570 150" class="line"/>
+  <path d="M760 149 H850" class="line"/>
+
+  <rect x="570" y="265" width="190" height="88" rx="12" fill="#fff8e8" stroke="#d69e2e" stroke-width="2"/>
+  <text x="665" y="300" text-anchor="middle" class="label">Semantic head</text>
+  <text x="665" y="328" text-anchor="middle" class="small">2 fully connected layers</text>
+  <path d="M485 246 C525 260 530 309 570 309" class="line"/>
+
+  <rect x="55" y="390" width="190" height="72" rx="12" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="150" y="420" text-anchor="middle" class="label">Reference French</text>
+  <text x="150" y="445" text-anchor="middle" class="small">translation y</text>
+
+  <rect x="315" y="375" width="210" height="102" rx="12" fill="#f4f4f5" stroke="#71717a" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="420" y="414" text-anchor="middle" class="label">Sentence encoder</text>
+  <text x="420" y="442" text-anchor="middle" class="small">frozen CamemBERT</text>
+  <text x="420" y="463" text-anchor="middle" class="tiny">reference embedding</text>
+  <path d="M245 426 H315" class="line"/>
+
+  <rect x="850" y="280" width="175" height="72" rx="12" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+  <text x="938" y="310" text-anchor="middle" class="label">Semantic loss</text>
+  <text x="938" y="336" text-anchor="middle" class="small">cosine or MSE</text>
+  <path d="M760 309 H850" class="line"/>
+  <path d="M525 426 C690 426 735 350 850 330" class="line"/>
+
+  <rect x="850" y="405" width="175" height="72" rx="12" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+  <text x="938" y="436" text-anchor="middle" class="label">Total loss</text>
+  <text x="938" y="462" text-anchor="middle" class="small">Lseq + λ Lsemantic</text>
+  <path d="M938 193 V405" class="line dashed"/>
+  <path d="M938 352 V405" class="line dashed"/>
+
+  <text x="40" y="575" class="label">INFERENCE</text>
+  <rect x="180" y="545" width="200" height="68" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="280" y="586" text-anchor="middle" class="label">Encoder</text>
+  <rect x="460" y="545" width="200" height="68" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="560" y="586" text-anchor="middle" class="label">TDT or CTC</text>
+  <rect x="740" y="545" width="200" height="68" rx="12" fill="#eef6fc" stroke="#267cb9" stroke-width="2"/>
+  <text x="840" y="586" text-anchor="middle" class="label">Translation</text>
+  <path d="M380 579 H460" class="line"/>
+  <path d="M660 579 H740" class="line"/>
+  <text x="550" y="635" text-anchor="middle" class="small">The semantic branch is dropped: zero additional inference cost.</text>
+  </g>
+</svg>
