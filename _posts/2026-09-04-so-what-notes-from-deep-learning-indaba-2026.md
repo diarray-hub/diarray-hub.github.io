@@ -18,7 +18,7 @@ Part of that came from the Baobab app, which I found wonderful. Part of it was s
 
 ## The most expensive free advice I received
 
-My mentorship session with Girmaw marked me in ways I did not expect. I found guidance, goodwill, and priceless advice, but the best advice was that question: **so what?**
+My mentorship session with Girmaw Abebe Tadesse marked me in ways I did not expect. I found guidance, goodwill, and priceless advice, but the best advice was that question: **so what?**
 
 It pushed me to reflect on the impact of my work in my community. I realized that I had become so obsessed with the idea of becoming a great scientist that I was focusing on metrics that do not really mean anything to me—or to Africa.
 
@@ -44,7 +44,7 @@ I was also part of those Research in Africa days as a presenter. Our paper, *[Li
 
 ## Making the black boxes a little less dark
 
-I used the tutorials this year to get in touch with some of my personal AI "black boxes." I did not expect to walk out as an expert. Going from level zero to one was enough.
+I used the [tutorials this year](https://github.com/deep-learning-indaba/indaba-tutorial-and-skills-2026) to get in touch with some of my personal AI "black boxes." I did not expect to walk out as an expert. Going from level zero to one was enough.
 
 The session on building faster transformers with Triton gave me a first look at GPU kernel programming and helped satisfy some of my curiosity about how accelerators actually work. The core difference I took away was the programming paradigm: with CUDA, you work at the scalar or thread level and manually manage how many individual threads cooperate inside a block. Triton lets you write programs that operate on blocks of data while the compiler handles much of the thread coordination and memory optimization.
 
@@ -54,7 +54,7 @@ The graph neural networks tutorial did something similar. It introduced the basi
 
 ## Updating my mental image of AI safety
 
-I joined the workshop on red-teaming AI systems because I needed to correct a caricature I had built in my head.
+I joined the workshop on [red-teaming AI systems](https://africa-redteaming.github.io/) because I needed to correct a caricature I had built in my head.
 
 I knew AI safety existed and understood that it was important, but I imagined two kinds of people in the field:
 
@@ -65,7 +65,7 @@ The second group is significantly louder. If you care more about the scientific 
 
 The hands-on red-teaming workshop grounded my mental image in the actual work people are doing to make AI systems safer. I already liked red-teaming as a concept from cybersecurity; I loved seeing it applied to AI, and I learned a lot.
 
-Another workshop that caught my attention was GeoAI for climate resilience. GeoAI had been picking my interest since InstaDeep's 2025 hackathon on foundation models for Earth observation. One thing that struck me then was how few datasets are easy to find for geospatial AI tasks compared with language.
+Another workshop that caught my attention was [GeoAI for climate resilience](https://geoai-climate-f6a90b.gitlab.io/). GeoAI had been picking my interest since InstaDeep's 2025 hackathon on foundation models for Earth observation. One thing that struck me then was how few datasets are easy to find for geospatial AI tasks compared with language.
 
 That is why I liked GeoAI Africa's effort to do for geospatial data something similar to what Lanfrica has done for language: make the data easier to find. Discovery sounds like a small problem until you try to build something. Making data findable is one of the first steps that drives innovation.
 
