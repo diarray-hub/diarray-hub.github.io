@@ -173,4 +173,4 @@ For a full list of my publications, check my [Semantic Scholar](https://www.sema
 
 ## Blog
 
-Because I may occasionally write stuffs that do not quite fit in an academic paper, I started a [blog](./blog.md). This blog really doesn't have a specific topic, the books I read are way too random for that, and I think it will often be about a book. So let's say it's a ***reading blog***.
+Because I may occasionally write stuffs that do not quite fit in an academic paper, I started a [blog](./blog.md). This blog really doesn't have a specific topic, my thoughts are way too random for that, sometimes it will be about a book or an article, or philosophy or a project. TL;DR: it's a blog bout about **stuffs** :)
