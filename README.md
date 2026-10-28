@@ -139,10 +139,9 @@ Right now? I'm doing research on speech recognition at RobotsMali [AI4D](https:/
     <div class="timeline-text">
       <b>Personal Projects</b>
       <ul>
-        <li><b>Space:</b> I am currently exploring Machine Learning for Observational Astronomical and space science. Lately, I've been studying <a href="https://huggingface.co/nasa-ibm-ai4science"> NASA and IBM Heliophysics foundation Model</a> </li>
-        <li><b>Robotics:</b> <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
-        <li><b>Credit Scoring:</b> I developed fundamental skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using <a href="https://ieeexplore.ieee.org/document/7344858">DFS</a> to create features from a <a href="https://www.kaggle.com/datasets/diarray/deep-feature-synthesis-home-credit-stability">large relational database</a> and compare ML algorithms for credit scoring.</li>
-        <li><b>Learning:</b> At some point I was obsessed about <a href="https://github.com/diarray-hub/covid_classification">implementing DL techniques from scratch</a>; keep in mind this was started in the pre-ChatGPT era so it was all struggle and learnings. Special mention to Michael Nielsen for his <a href="http://neuralnetworksanddeeplearning.com/">book.</a></li>
+        <li><b>Space:</b> I am currently exploring Machine Learning for Space Science, particularly Remote Sensing and Observational Astronomy with a focus on Representation Learning. Lately, my focus was on <a href="https://huggingface.co/nasa-ibm-ai4science/Surya-1.0"> NASA and IBM Heliophysics foundation Model</a> </li>
+        <li><b>Credit Scoring:</b> I developed fundamental ML & Data Science skills during my <a href="https://github.com/diarray-hub/predicting-loans-defaults">undergrad project</a>, using <a href="https://ieeexplore.ieee.org/document/7344858">DFS</a> to create features from a <a href="https://www.kaggle.com/datasets/diarray/deep-feature-synthesis-home-credit-stability">large relational database</a> and compare ML algorithms for credit scoring.</li>
+        <li><b>Robotics:</b> Intro to <a href="https://www.ros.org/">ROS</a> and Computer Vision; bronze medalist at the <a href="https://github.com/diarray-hub/PARC-Engineers-League">2023 Panafrican Robotics Competition</a>.</li>
       </ul>
     </div>
   </div>
@@ -173,4 +172,4 @@ For a full list of my publications, check my [Semantic Scholar](https://www.sema
 
 ## Blog
 
-Because I may occasionally write stuffs that do not quite fit in an academic paper, I started a [blog](./blog.md). This blog really doesn't have a specific topic, my thoughts are way too random for that, sometimes it will be about a book or an article, or philosophy or a project. TL;DR: it's a blog bout about **stuffs** :)
+Because I may occasionally write stuffs that do not quite fit in a paper, I started a [blog](./blog.md). This blog really doesn't have a specific topic, my thoughts are way too random for that, sometimes it will be about a book or an article, sometimes philosophy and sometimes a project of mine. TL;DR: it's a blog bout about **stuffs** :)
